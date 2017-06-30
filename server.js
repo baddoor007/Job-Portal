@@ -60,7 +60,7 @@ app.Email.defaults.templateExt = 'hbs';
 app.Email.defaults.templateEngine = require('handlebars');
 
 
-// Configure the navigation bar in Keystone's Admin UI
+// Configure the navigation bar in  Admin UI
 app.set('nav', {
 	posts: ['posts', 'post-categories'],
 	bankJob:'bankjobs',
@@ -73,6 +73,6 @@ app.set('nav', {
 
 });
 
-// Start Keystone to connect to your database and initialise the web server
+
 
 app.start();
