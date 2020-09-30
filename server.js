@@ -10,6 +10,8 @@ var handlebars = require('express-handlebars');
 // See http://keystonejs.com/guide/config for available options
 // and documentation.
 
+console.log("i am working");
+
 app.init({
 	'name': 'MyJob.com',
 	'brand': 'MyJob.com',
